@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Netflix: PS3 UI</title>
+		<meta name="title" content="Netflix" />
+		<link type="text/css" rel="stylesheet" href="css/ui.css" />
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="js/ui-main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="ui-header">
+				<h1 class="ui-logo">Netflix</h1>
+				<nav class="ui-right">
+					<ul class="inline">
+						<li class="pagination"><span class="current">2</span><span>&nbsp;/&nbsp;</span><span class="total">75</span></li>
+						<li><a href="#" class="ui-key">Enter</a> <span>Select</span></li>
+						<li><a href="#" class="ui-key">S</a> <span>Search</span></li>
+						<li class="back"><a href="#" class="ui-key">Esc</a> <span>Back</span></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="ui-main">
+				<div class="ui-selector"></div>
+				<div class="main">
+					<section class="row first">
+						<header><h1>Instant Queue</h1></header>
+						<div class="viewport">
+							<ul>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+							</ul>
+						</div>
+					</section>
+					<section class="row">
+						<header><h1>Recently Watched</h1></header>
+						<div class="viewport">
+							<ul>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+							</ul>
+						</div>
+					</section>
+					<section class="row">
+						<header><h1>Thrillers</h1></header>
+						<div class="viewport">
+							<ul>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+								<li><a href="#" data-id="0"><img src="img/ui-blank.png" alt="" /></a></li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<aside class="sidebar">
+					<div class="wrapper">
+						<h1 class="data" data-type="title">Limitless</h1>
+						<p><span class="year">2011</span> <span class="mpaa-rating">PG-13</span> <span class="runtime">1h 44m</span></p>
+						<ul class="ratings">
+							<li><a href="#">&#9733;</a></li>
+							<li><a href="#">&#9733;</a></li>
+							<li><a href="#">&#9733;</a></li>
+							<li><a href="#">&#9733;</a></li>
+							<li><a href="#">&#9733;</a></li>
+						</ul>
+						<div class="data" data-type="quality"><span class="hq">HD</span><span class="hq">5.1</span></div>
+						<p class="data" data-type="description">With his writing career dragging, Eddie Morra's life turns around when he takes a drug that provides astonishing mental focus.</p>
+						<p class="data" data-type="actors">Bradley Cooper, Robert De Niro, Abbie Cornish</p>
+						<p class="data" data-type="genres">Thrillers, Crime Thrillers</p>
+						<p>Director: <span class="data" data-type="director">Neil Burger</span></p>
+					</div>
+				</aside>
+				<aside class="sidebar-ext">
+					<div class="wrapper">
+						<div id="playButton"></div>
+						<script src="http://jsapi.netflix.com/us/api/js/api.js">
+						{
+							"title_id" : "http://api.netflix.com/catalog/movie/70068647",
+							"button_type" : ["PLAY_BUTTON", "ADD_BUTTON"],
+							"show_logo" : "false",
+							"x" : "80",
+							"y" : "40",
+							"dom_id" : "playButton",
+							"application_id" : "q92pfbhg9smrx435p2rdj6ab"
+						}
+						</script>
+					</div>
+				</aside>
+			</section>
+		</div>
+	</body>
+</html>
